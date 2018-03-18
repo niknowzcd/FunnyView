@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Carson</title>
+    <script>
+
+
+         function callAndroid(){
+        // 由于对象映射，所以调用test对象等于调用Android映射的对象
+            JsObject.hello("js调用了android中的hello方法");
+            document.location = "js://webview?arg1=111&arg2=222";
+         }
+      </script>
+</head>
+<body>
+//点击按钮则调用callAndroid函数
+<button type="button" id="button1" onclick="callAndroid()"></button>
+</body>
+</html>

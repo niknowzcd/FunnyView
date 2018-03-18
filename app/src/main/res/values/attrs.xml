@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="AdvertisementImageView">
+        <attr name="src" format="reference" />
+        <attr name="frescoEnable" format="boolean" />
+    </declare-styleable>
+
+</resources>

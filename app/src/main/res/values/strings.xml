@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">application</string>
+    <string name="permission_denied_forever_message">本app中的部分功能需要使用到摄像头功能</string>
+    <string name="permission_rationale_message">本app中的部分功能需要使用到摄像头功能2222222</string>
+</resources>
