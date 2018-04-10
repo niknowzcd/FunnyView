@@ -9,7 +9,7 @@ import com.mysample.application.R;
 /**
  * 仿知乎关注按钮
  */
-public class MainActivity extends AppCompatActivity {
+public class RippleButtonActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

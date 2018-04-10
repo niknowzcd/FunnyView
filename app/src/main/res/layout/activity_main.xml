@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
-    tools:context=".view.rippleButtom.MainActivity">
+    tools:context=".view.rippleButtom.RippleButtonActivity">
 
     <Button
         android:id="@+id/test_bt"
@@ -21,10 +21,9 @@
         android:layout_height="wrap_content"
         android:layout_margin="13dp"
         android:background="#FFFFFF"
-        android:clickable="true"
         android:text="关注" />
 
-    <com.mysample.application.view.rippleButtom.RevealFollowButton
+    <com.mysample.application.view.rippleButton.RevealFollowButtonKt
         android:id="@+id/test_rfb"
         android:layout_width="78dp"
         android:layout_height="wrap_content"
