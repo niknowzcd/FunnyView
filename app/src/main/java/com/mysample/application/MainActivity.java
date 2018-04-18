@@ -11,6 +11,7 @@ import android.widget.SeekBar;
 
 import com.mysample.application.R;
 import com.mysample.application.view.advertisementImageView.AdvertisementImageActivity;
+import com.mysample.application.view.advertisementImageView.AdvertisementImageActivityKt;
 import com.mysample.application.view.rippleButtom.RippleButtonActivity;
 
 /**
@@ -37,7 +38,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 startActivity(new Intent(this, RippleButtonActivity.class));
                 break;
             case R.id.btn_advertisement:
-                startActivity(new Intent(this, AdvertisementImageActivity.class));
+                startActivity(new Intent(this, AdvertisementImageActivityKt.class));
                 break;
         }
     }
