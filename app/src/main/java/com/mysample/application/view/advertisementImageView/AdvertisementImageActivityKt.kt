@@ -27,12 +27,12 @@ class AdvertisementImageActivityKt : AppCompatActivity() {
 
     inner class MyAdapter : RecyclerView.Adapter<MyAdapter.MyHolder>() {
 
-        override fun onBindViewHolder(holder: MyHolder?, position: Int) {
+        override fun onBindViewHolder(holder: MyHolder, position: Int) {
             if (position == 10) {
-                holder!!.windowImageView!!.bindRecyclerView(list)
-                holder.windowImageView!!.setImageResource(R.drawable.timg)
+                holder.windowImageView!!.bindRecyclerView(list)
+                holder.windowImageView!!.setImageResourceId(R.drawable.timg)
             } else {
-                holder!!.itemView.setBackgroundColor(Color.rgb((Math.random() * 255).toInt(), (Math.random() * 255).toInt(), (Math.random() * 255).toInt()))
+                holder.itemView.setBackgroundColor(Color.rgb((Math.random() * 255).toInt(), (Math.random() * 255).toInt(), (Math.random() * 255).toInt()))
             }
         }
 
@@ -57,18 +57,12 @@ class AdvertisementImageActivityKt : AppCompatActivity() {
         override fun getItemCount(): Int = 20
 
         inner class MyHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-            var windowImageView: AdvertisementImageView2?=null
+            var windowImageView: AdvertisementImageView2Kt? = null
 
             init {
                 windowImageView = itemView.findViewById(R.id.wiv)
             }
         }
-
-//        inner class MyHolder(view: View) : RecyclerView.ViewHolder(view) {
-//
-//            var windowImageView: AdvertisementImageView2 = view.findViewById(R.id.wiv)
-//
-//        }
     }
 
     companion object {

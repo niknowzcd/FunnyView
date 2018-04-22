@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <com.mysample.application.view.advertisementImageView.AdvertisementImageView2
+    <com.mysample.application.view.advertisementImageView.AdvertisementImageView2Kt
         android:id="@+id/wiv"
         android:layout_width="match_parent"
         android:layout_height="200dp" />

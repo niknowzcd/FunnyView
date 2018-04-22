@@ -75,6 +75,12 @@ public class AdvertisementImageActivity extends AppCompatActivity {
             MyHolder(View itemView) {
                 super(itemView);
                 windowImageView = itemView.findViewById(R.id.wiv);
+                windowImageView.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+
+                    }
+                });
             }
         }
     }
