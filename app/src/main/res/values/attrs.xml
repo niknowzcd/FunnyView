@@ -6,4 +6,10 @@
         <attr name="frescoEnable" format="boolean" />
     </declare-styleable>
 
+    <declare-styleable name="NumberRainView">
+        <attr name="normalColor" />
+        <attr name="highLightColor" />
+        <attr name="textSize" />
+    </declare-styleable>
+
 </resources>

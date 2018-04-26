@@ -12,11 +12,17 @@
         android:text="波纹按钮" />
 
     <Button
-        android:layout_marginTop="16dp"
         android:id="@+id/btn_advertisement"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:text="仿知乎广告" />
 
+    <Button
+        android:id="@+id/btn_number_rain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="数字雨" />
 
 </LinearLayout>

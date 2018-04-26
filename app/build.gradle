@@ -41,5 +41,6 @@ dependencies {
 //    compile 'com.github.Bleoo:WindowImageView:1.0.2'
     compile 'com.facebook.fresco:fresco:1.5.0'
     compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+    compile 'org.greenrobot:eventbus:3.1.1'
 
 }

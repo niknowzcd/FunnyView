@@ -26,6 +26,7 @@
 
         <activity android:name=".view.advertisementImageView.AdvertisementImageActivity" />
         <activity android:name=".view.advertisementImageView.AdvertisementImageActivityKt"/>
+        <activity android:name=".view.numberRainView.NumberRainActivity"/>
 
         <activity android:name=".view.rippleButtom.RippleButtonActivity" />
 
