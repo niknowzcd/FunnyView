@@ -19,10 +19,10 @@ class NumberRainViewKt(context: Context, attributeSet: AttributeSet?) : LinearLa
 
     init {
         attributeSet?.let {
-            val typedArray = this.context.obtainStyledAttributes(attributeSet, R.styleable.NumberRain)
-            normalColor = typedArray.getColor(R.styleable.NumberRain_normalColor, Color.GREEN)
-            highLightColor = typedArray.getColor(R.styleable.NumberRain_highLightColor, Color.BLUE)
-            textSize = typedArray.getDimension(R.styleable.NumberRain_textSize, textSize)
+            val typedArray = this.context.obtainStyledAttributes(attributeSet, R.styleable.NumberRainView)
+            normalColor = typedArray.getColor(R.styleable.NumberRainView_normalColor, Color.GREEN)
+            highLightColor = typedArray.getColor(R.styleable.NumberRainView_highLightColor, Color.BLUE)
+            textSize = typedArray.getDimension(R.styleable.NumberRainView_textSize, textSize)
             typedArray.recycle()
         }
 
